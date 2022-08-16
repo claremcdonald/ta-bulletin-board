@@ -1,5 +1,5 @@
-const SUPABASE_URL = '';
-const SUPABASE_KEY = '';
+const SUPABASE_URL = 'https://pjoortuwzcccnidezmov.supabase.co';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBqb29ydHV3emNjY25pZGV6bW92Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NjA2MDk2OTksImV4cCI6MTk3NjE4NTY5OX0.0vPz0BKoXkKL-771iSRXs88pxfU8Zlv1LbX6peOQ9mw';
 const client = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 /* Auth related functions */
